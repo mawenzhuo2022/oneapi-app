@@ -4,7 +4,7 @@ import { List, message } from 'antd';
 import { listInterfaceInfoByPageUsingGET } from '@/services/oneapi/interfaceInfoController';
 
 /**
- * 主页
+ * main
  * @constructor
  */
 const Index: React.FC = () => {

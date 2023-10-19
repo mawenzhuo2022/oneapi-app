@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   const intl = useIntl();
   const defaultMessage = intl.formatMessage({
     id: 'app.copyright.produced',
-    defaultMessage: 'WZM体验技术部出品',
+    defaultMessage: 'Produced by WZM Financial Experience Department',
   });
 
   const currentYear = new Date().getFullYear();
